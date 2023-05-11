@@ -4,7 +4,7 @@ var eventsData;
 
 function setHColors() {
     var now = dayjs();
-    //for loop
+    
     for (var i = 9; i < 18; i++) {
         if (i < now.hour()) {
             $("#hour-" + i + " textarea").addClass("past");
@@ -32,8 +32,10 @@ function loadStoredData() {
             hour16: "", 
             hour17: ""   
         };
-    }
+    } // need function to show events, can see  devtools terminal where localStorage is shown, but not displayed on page
 }
+
+
 
 // this will grab data from html, modify, and store it in data object
 function handleSaveClick(event) {
