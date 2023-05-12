@@ -23,11 +23,6 @@ textarea {
   border-bottom: 10px solid black;
 }
 
-/* did not use this */
-.description {
-  white-space: pre-wrap;
-}
-
 /* styles text and shape in time part of row */
 .time-block {
   text-align: center;
