@@ -17,7 +17,7 @@ function setHColors() {
 }
 
 
-// will check if there's anything in localStorage, if so will load stored data and if not will default object below to be able to store data
+// will check if there's anything in localStorage, if so will load stored data and if not will default object below, "", to be able to store data
 function loadStoredData() {
     eventsData = JSON.parse(localStorage.getItem("calendarEvents"));
     if (!eventsData) {
