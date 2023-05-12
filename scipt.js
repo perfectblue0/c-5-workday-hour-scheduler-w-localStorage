@@ -1,7 +1,7 @@
+// global variable
 var eventsData;
 
-// setHColors has bugs
-
+// checks time and sets classes to hour id depending on whether the current time is in the past, the present or in the future (this changes their colors in css because of the class added)
 function setHColors() {
     var now = dayjs();
 
@@ -15,7 +15,6 @@ function setHColors() {
         }
     }
 }
-
 
 // will check if there's anything in localStorage, if so will load stored data and if not will default object below, "", to be able to store data
 function loadStoredData() {
