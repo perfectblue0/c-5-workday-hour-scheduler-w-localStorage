@@ -4,6 +4,7 @@ body {
   line-height: 1;
 }
 
+/* styles the textarea where user will type in daily tasks */
 textarea {
   background: transparent;
   border: none;
@@ -13,6 +14,7 @@ textarea {
   padding: 10px;
 }
 
+/* styles container that has application title and despcription */
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -21,27 +23,32 @@ textarea {
   border-bottom: 10px solid black;
 }
 
+/* did not use this */
 .description {
   white-space: pre-wrap;
 }
 
+/* styles text and shape in time part of row */
 .time-block {
   text-align: center;
   border-radius: 15px;
 }
 
+/* styles each row's shape and border */
 .row {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;
 }
 
+/* applies white, black text, top dashed border to each time part of row */
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
 }
 
+/* applies color according to whether a block is a time that has passed, is in the present, or is in the future */
 .past {
   background-color: #d3d3d3;
   color: white;
@@ -57,6 +64,7 @@ textarea {
   color: white;
 }
 
+/* styles the save button next to the text area, and when and changes it's size when mouse hovers over button */
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
