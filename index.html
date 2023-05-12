@@ -23,11 +23,13 @@
   </head>
 
   <body>
+    <!--title of application with description-->
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
+    <!--rows that display time, textarea to set or get data, and a button to save newly written data in textarea-->
     <div class="container">
       <div id="hour-9" class="row time-block">
         <div class="col-2 hour">9 AM</div>
@@ -75,7 +77,7 @@
         <button class="col-2 saveBtn"></button>
       </div>
     </div>
-
+    <!--scripts that allow application to have jquery, moment.js, day.js, and access to script.js file-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script
